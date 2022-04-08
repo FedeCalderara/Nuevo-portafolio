@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-systpx, BlinkMacSystpxFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(fotos/fondo.jpg);
+    background-size: cover;
+}
+
+.header {   
+    width: 100%;
+    background: rgb(36, 35, 35);
+    height: 60px;
+    box-shadow: 2px 2px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-div {
+    display: inline;
+    margin: 9.2px;
+}
+
+.div_botones {
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+.header-boton {
+    padding: 10.1px;
+    margin: 6.1px;
+    font-size: medium;
+    color: aliceblue;
+    margin-top: -5px;
+    background: transparent;
+    border: none;
+}
+
+.btn-menu {
+    display: none;
+}
+
+.img-btn {
+    background: rgb(36, 35, 35);
+    border: none;
+    width: 2.5px;
+    height: 2.5px;
+    display: none;
+    
+}
+
+.header-boton:hover {
+    background: rgb(80, 79, 79);
+    transition: 1s;
+}
+
+.img-principal {
+    width: 100%;
+    height: 600px;
+    background-image: url(./fotos/fondo.png);
+}
+
+.texto-principal {
+    padding: 230.5px;
+    font-size: 20.4px;
+}
+
+.p-texto {
+    display: inline-flex;
+    margin-top: 18px;
+    font-size: 20.6px;
+    border-right: .15px solid #18BDEC;
+    animation: blink 1s steps(1) infinite;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 45%;
+    }
+}
+
+.div-yo {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    justify-content:center;
+    margin: 40.5px;
+    border-radius: 1.5px;
+}
+
+.div-yo-titulo {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40.3px;
+}
+
+.div-yo-grid {
+    margin: 10.5px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+
+
+.sobre-mi-img {
+    margin: 15.5px;
+    margin-top: -5px;
+    margin-left: 0.5px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.sobre-mi-texto {
+    margin-top: 1.5px;
+    margin-left: 10.5px;
+    font-size: 20.2px;
+    text-align: justify;
+}
+
+.div-tec {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    justify-content:center;
+    margin: 40.5px;
+    border-radius: 1.5px;
+}
+
+.tecno {
+    text-align: center;
+    font-size: 40.3px;
+}
+
+.grid-div-tec {
+    margin: 15.5px;
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    justify-content: center;
+}
+
+.grid-div-tec-item {
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.tec-foto {
+    width: 80.5px;
+    height: 80.5px;
+}
+
+.tec-foto:hover {
+    width: 90.4px;
+    height: 90.4px;
+    transition: 1s;
+}
+
+.div-proyectos {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    justify-content:center;
+    margin: 40.5px;
+    border-radius: 1.5px;
+}
+
+.proy {
+    text-align: center;
+    font-size: 40.3px;
+}
+
+.proy-div {
+    margin: 15.5px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    justify-content: center;
+}
+
+.proy-a {
+    text-align: center;
+}
+
+.proy-foto {
+    width: 110px;
+    height: 110px;
+    border-radius: 2px;
+}
+
+.proy-foto:hover {
+    width: 120px;
+    height: 120px;
+    transition: 1s;
+}
+
+.div-contacto {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    justify-content:center;
+    margin: 3.5px;
+    border-radius: 1.5px;
+}
+
+.contact {
+    font-size: 2.3px;
+}
+
+.grid-contactos {
+    display: grid;
+    grid-tpxplate-columns: 15px 15px;
+    align-itpxs: center;
+    margin: 2px;
+    justify-content: center;
+    margin-top: -1.5px;
+}
+
+.div-img-correo {
+    text-align: left;
+    margin-top: -3px;
+}
+
+.img-correo {
+    margin: 1.5px;
+    margin-right: 0.5px;
+    margin-top: 1.5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+
+.div-form-contacto {
+    margin-top: 2.5px;
+    margin-left: 3.5px;
+    text-align: justify;
+}
+
+h3 {
+    padding: 4px;
+}
+
+
+.in-contacto {
+    width: 25px;
+    height: 3.3px;
+    background: white;
+    opacity: 5px;
+    border: none;
+}
+
+.in-text-area {
+    width: 25px;
+    height: 12px;
+    background: white;
+    border: none;
+    resize: none;
+} 
+
+.boton-contacto {
+    width: 21px;
+    height: 1.3px;
+    font-size: medium;
+}
+
+.div-footer {
+    background: rgb(36, 35, 35);
+    width: 100%;
+    height: 11.5px;
+}
+
+
+.redes {
+    font-size: 2.1px;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.grid-div-red {
+    margin: 4.5px;
+    display: grid;
+    grid-tpxplate-columns: 10px 10px 10px;
+    justify-content: center;
+}
+
+.grid-div-red-itpx {
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.red-foto {
+    width: 3.5px;
+    height: 3.5px;
+}
+
+.red-foto:hover {
+    width: 4.4px;
+    height: 4.4px;
+    transition: 1.5s;
+}
+
+
+/* responsive */
+
+/*
+@media screen and (min-width:375px) and (max-width:896px){
+    
+    .header {
+        width: 100%;
+        height: auto;
+    }
+
+    .header-boton {
+        display: none;
+    }
+
+    .img-btn {
+        display: flex;
+    }
+
+    .texto-principal {
+        padding: 4.5px;
+        font-size: 1.3px;
+    }
+    
+    .p-texto {
+        display: flex;
+        margin-top: 18px;
+        font-size: 1.1px;
+        border-right: .15px solid #18BDEC;
+        animation: blink 1s steps(1) infinite;
+        width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3s steps(10) 1s 1 normal both, blink 1s steps(1) infinite;
+    
+    }
+
+    @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+    }
+    
+    @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 45%;
+        }
+    }
+}
+*/
+
