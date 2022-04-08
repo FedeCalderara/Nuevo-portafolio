@@ -215,105 +215,104 @@ body {
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(8px);
     justify-content:center;
-    margin: 3.5px;
+    margin: 40.5px;
     border-radius: 1.5px;
 }
 
 .contact {
-    font-size: 2.3px;
+    font-size: 40.3px;
 }
 
 .grid-contactos {
     display: grid;
-    grid-tpxplate-columns: 15px 15px;
-    align-itpxs: center;
-    margin: 2px;
+    grid-template-columns: 250px 250px;
+    align-items: center;
+    margin: 20px;
     justify-content: center;
     margin-top: -1.5px;
 }
 
 .div-img-correo {
     text-align: left;
-    margin-top: -3px;
+    margin-top: -30px;
 }
 
 .img-correo {
-    margin: 1.5px;
-    margin-right: 0.5px;
-    margin-top: 1.5px;
-    width: 12px;
-    height: 12px;
+    margin: 10.5px;
+    margin-right: 10.5px;
+    margin-top: 10.5px;
+    width: 160px;
+    height: 160px;
     border-radius: 2px;
 }
 
 .div-form-contacto {
-    margin-top: 2.5px;
-    margin-left: 3.5px;
+    margin-top: 20.5px;
+    margin-left: 30.5px;
+    margin-bottom: 25px;
     text-align: justify;
 }
 
 h3 {
-    padding: 4px;
+    padding: 10px;
 }
 
 
 .in-contacto {
-    width: 25px;
-    height: 3.3px;
+    width: 270px;
+    height: 30.3px;
     background: white;
-    opacity: 5px;
     border: none;
 }
 
 .in-text-area {
-    width: 25px;
-    height: 12px;
+    width: 270px;
+    height: 70px;
     background: white;
     border: none;
     resize: none;
 } 
 
 .boton-contacto {
-    width: 21px;
-    height: 1.3px;
+    width: 270px;
+    height: 20.3px;
     font-size: medium;
 }
 
 .div-footer {
     background: rgb(36, 35, 35);
     width: 100%;
-    height: 11.5px;
+    height: auto;
 }
 
 
 .redes {
-    font-size: 2.1px;
+    font-size: 30.1px;
     color: antiquewhite;
     text-align: center;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
 }
 
 .grid-div-red {
-    margin: 4.5px;
     display: grid;
-    grid-tpxplate-columns: 10px 10px 10px;
+    grid-template-columns: 100px 100px 100px;
     justify-content: center;
 }
 
-.grid-div-red-itpx {
+.grid-div-red-item {
     margin-bottom: 2px;
     text-align: center;
 }
 
 .red-foto {
-    width: 3.5px;
-    height: 3.5px;
+    width: 50.5px;
+    height: 50.5px;
 }
 
 .red-foto:hover {
-    width: 4.4px;
-    height: 4.4px;
-    transition: 1.5s;
+    width: 60.4px;
+    height: 60.4px;
+    transition: 1s;
 }
 
 
