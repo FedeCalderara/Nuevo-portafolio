@@ -317,56 +317,5 @@ h3 {
 }
 
 
-/* responsive */
 
-/*
-@media screen and (min-width:375px) and (max-width:896px){
-    
-    .header {
-        width: 100%;
-        height: auto;
-    }
-
-    .header-boton {
-        display: none;
-    }
-
-    .img-btn {
-        display: flex;
-    }
-
-    .texto-principal {
-        padding: 4.5px;
-        font-size: 1.3px;
-    }
-    
-    .p-texto {
-        display: flex;
-        margin-top: 18px;
-        font-size: 1.1px;
-        border-right: .15px solid #18BDEC;
-        animation: blink 1s steps(1) infinite;
-        width: 0;
-        overflow: hidden;
-        white-space: nowrap;
-        animation: typing 3s steps(10) 1s 1 normal both, blink 1s steps(1) infinite;
-    
-    }
-
-    @keyframes blink {
-        50% {
-          border-color: transparent;
-        }
-    }
-    
-    @keyframes typing {
-        from {
-          width: 0;
-        }
-        to {
-          width: 45%;
-        }
-    }
-}
-*/
 
