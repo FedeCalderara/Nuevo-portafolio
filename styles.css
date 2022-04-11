@@ -6,6 +6,7 @@
 
 body {
     background-image: url(fotos/fondo.jpg);
+    object-fit: cover;
 }
 
 .logo {
@@ -169,7 +170,13 @@ ul.show {
         color: rgb(52, 238, 245);
     }
 
-    /* img principal */
+    /* div principal */
+
+    .principal {
+         background: rgba(0, 0, 0, .3);
+         backdrop-filter: blur(10px);
+         border-radius: 20px;
+    }
 
     .img_principal {
         background: none;
@@ -185,12 +192,12 @@ ul.show {
         width: 60vw;
         height: 40vh;
         border-radius: 800px;
-        border: solid white; 
+        border: solid 3px white; 
     }
 
     .text_principal {
         padding-top: 50px;
-        padding-left: 80px; 
+        padding-left: 80px;
     }
 
     .principal_h1 {
