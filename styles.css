@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(fotos/fondo.jpg);
+}
+
 .logo {
     width: 4em;
     margin-left: 10px;
@@ -58,6 +62,54 @@ ul.show {
     top: 65px;
 }
 
+/* div principal */
+
+.img_principal {
+    background-image: url(fotos/fondo.png);
+    width: 100vw;
+    height: 90vh;
+}
+
+.text_principal {
+    padding-top: 250px;
+    padding-left: 100px;    
+}
+.principal_h1 {
+    font-size: 50px;
+}
+
+.principal_p {
+    font-size: 30px;
+    border-right: .15em solid #18BDEC;
+    animation: blink 1s steps(1) infinite;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 25%;
+    }
+}
+
+
+
+/* responsive */
+
+
+/* tablet */
+
 @media screen and (max-width:952px) {
     
     .logo {
@@ -70,10 +122,17 @@ ul.show {
     }
 }
 
+/* celu */
+
 @media screen and (max-width:858px) {
 
     .menu {
         height: 65px;
+    }
+
+    .logo {
+        width: 3em;
+        margin-left: 5px;
     }
 
     .btn_menu {
@@ -84,7 +143,7 @@ ul.show {
         position: fixed;
         width: 100vw;
         height: calc(100% - 65px);
-        background: rgb(29, 26, 26);
+        background: rgb(59, 57, 57);
         top: -100vh;
         text-align: center;
         transition: all .5s;
@@ -107,13 +166,63 @@ ul.show {
     }
 
     .menu_items li a:hover {
-        color: rgb(15, 14, 14);
+        color: rgb(52, 238, 245);
     }
 
-    .logo {
-        width: 3em;
-        margin-left: 5px;
+    /* img principal */
+
+    .img_principal {
+        background: none;
+
     }
+
+    .img_responsive_div {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .img_responsive {
+        width: 60vw;
+        height: 40vh;
+        border-radius: 800px;
+        border: solid white; 
+    }
+
+    .text_principal {
+        padding-top: 50px;
+        padding-left: 80px; 
+    }
+
+    .principal_h1 {
+        font-size: 30px;
+    }
+    
+    .principal_p {
+        font-size: 15px;
+        border-right: .15em solid #18BDEC;
+        animation: blink 1s steps(1) infinite;
+        width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+    }
+    
+    @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+    }
+    
+    @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 55%;
+        }
+    }
+
+
 }
 
 @media screen and (max-width: 858px) and (orientation: landscape) {
