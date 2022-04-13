@@ -1,5 +1,6 @@
 body {
     background-image: url(fotos/fondo.jpg);
+    background-size: contain;
     
 }
 
@@ -13,7 +14,7 @@ h2 {
 
 p {
     font-size: 1.4em;
-    justify-content: space-between;
+    padding: .3em;
 }
 
 
@@ -65,7 +66,56 @@ header {
 .sobre_mi_div {
     text-align: center;
     background: rgba(0, 0, 0, .2);
-    backdrop-filter: blur(2.5em);
+    backdrop-filter: blur(.7em);
     border-radius: 1.1em;
 }
 
+/* tecnologia */
+
+.tecnologias {
+    text-align: center;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(.7em);
+    border-radius: 1.1em;
+}
+
+.tec_list {
+    display: flex;
+}
+    
+
+.tec_list li {
+    display: grid;
+    grid-template-rows: min-content(2em);
+    margin: auto;
+}
+
+
+.tec_img {
+    width: 5em;
+    height: 5em;
+}
+
+ /* proyectos */
+
+.proyectos {
+    text-align: center;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(.7em);
+    border-radius: 1.1em;
+}
+
+.pro_list {
+    display: flex;
+}
+
+.pro_list li {
+    display: grid;
+    grid-template-rows: min-content(2em);
+    margin: auto;
+}
+
+.pro_img {
+    width: 10em;
+    height: 10em;
+}
