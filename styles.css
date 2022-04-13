@@ -276,4 +276,29 @@ footer{
         margin: auto;
     }
 
+    /* footer */
+
+    footer{
+        background: rgb(114, 131, 127);
+        width: 100%;
+        height: 8.5em;
+        display: flex;
+    }
+    
+    .footer_list {
+        display: flex;
+        list-style: none;
+    }
+
+    .footer_list li {
+        display: flex;
+        margin: auto;
+        padding: .5em;
+    }
+    
+    .footer_list li a img {
+        width: 4.5em;
+        height: 4.5em;
+    }
+
 }
