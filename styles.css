@@ -69,6 +69,10 @@ header {
     transition: .5s;
 }
 
+.btn_menu {
+    display: none;
+}
+
 /* sobre mi */
 
 .sobre_mi_div {
@@ -234,6 +238,11 @@ footer{
     
     .menu_items {
         display: none;
+    }
+
+    .btn_menu {
+        display: inline-flex;
+        width: 2em;
     }
 
     /* contacto-responsive */
