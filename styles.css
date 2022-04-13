@@ -16,6 +16,10 @@ h2 {
     font-size: 2.2em;
 }
 
+h3 {
+    font-size: 1,9em;
+}
+
 p {
     font-size: 1.4em;
     padding: .3em;
@@ -146,4 +150,37 @@ header {
     background: rgba(0, 0, 0, .2);
     backdrop-filter: blur(.7em);
     border-radius: 1.1em;
+}
+
+.contact_list {
+    display: flex;
+}
+
+.contact_list li {
+    display: grid;
+    grid-template-rows: min-content(2em);
+    margin: auto;
+}
+
+.contacto_img {
+    width: 20em;
+    height: 20em;
+}
+
+.form {
+    font-size: 1.1em;
+}
+
+.input {
+    width: 20em;
+}
+
+.textarea {
+    width: 20em;
+    height: 8em;
+    resize: none;
+}
+
+.form_btn {
+    width: 20px;
 }
