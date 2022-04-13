@@ -214,6 +214,8 @@ footer{
 
 @media screen and (max-width:700px) {
 
+    /* nav-responsive */
+
     header {
         background: rgb(114, 131, 127);
         width: 100%;
@@ -232,6 +234,46 @@ footer{
     
     .menu_items {
         display: none;
+    }
+
+    /* contacto-responsive */
+
+    .contacto {
+        text-align: center;
+        background: rgba(0, 0, 0, .2);
+        backdrop-filter: blur(.7em);
+        border-radius: 1.1em;
+    }
+
+    .contact_list {
+        display: block;
+    }
+
+    .contact_list li img {
+        display: none;
+    }
+    
+    .contact_list li {
+        margin: auto;
+    }
+    
+    .form {
+        font-size: 1.1em;
+    }
+    
+    .input {
+        width: 15em;
+    }
+    
+    .textarea {
+        width: 15em;
+        height: 8em;
+        resize: none;
+    }
+    
+    .form_btn {
+        width: 15em;
+        margin: auto;
     }
 
 }
