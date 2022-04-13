@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+}
+
 body {
     background-image: url(fotos/fondo.jpg);
     background-size: contain;
@@ -94,6 +98,13 @@ header {
 .tec_img {
     width: 5em;
     height: 5em;
+    margin-bottom: 1em;
+}
+
+.tec_list li img:hover {
+    width: 7em;
+    height: 7em;
+    transition: 2s;
 }
 
  /* proyectos */
@@ -116,6 +127,23 @@ header {
 }
 
 .pro_img {
+    width: 8em;
+    height: 8em;
+    margin-bottom: 1em;
+
+}
+
+.pro_list li a img:hover {
     width: 10em;
     height: 10em;
+    transition: 1s;
+}
+
+/* contacto */
+
+.contacto {
+    text-align: center;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(.7em);
+    border-radius: 1.1em;
 }
