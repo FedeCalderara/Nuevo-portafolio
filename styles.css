@@ -346,7 +346,7 @@ footer{
     footer{
         background: rgb(114, 131, 127);
         width: 100%;
-        height: 8.5em;
+        height: 6em;
         display: flex;
     }
     
@@ -362,8 +362,8 @@ footer{
     }
     
     .footer_list li a img {
-        width: 4.5em;
-        height: 4.5em;
+        width: 4em;
+        height: 4em;
     }
 
 }
