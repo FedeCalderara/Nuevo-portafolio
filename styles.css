@@ -73,9 +73,6 @@ header {
     display: none;
 }
 
-ul.show {
-    height: 4.5em;
-}
 
 /* portada */
 
@@ -268,11 +265,12 @@ footer{
     }
     
     .menu_items {
-        display: none;
+        z-index: 30;
+        display: block;
         width: 100%;
         height: calc(100% - 4.5em);
         background: rgb(59, 57, 57);
-        top: -100vh;
+        transform: translateY(-100vh);
         text-align: center;
         transition: all .5s;
         flex-direction: column;
@@ -295,6 +293,12 @@ footer{
 
     .menu_items li a:hover {
         color: rgb(52, 238, 245);
+    }
+
+    .menu_items_show {
+        height: 4.5em;
+        background: rgb(59, 57, 57);
+        transform: translateY(0);
     }
 
     .btn_menu {

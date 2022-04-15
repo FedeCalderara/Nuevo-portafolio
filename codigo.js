@@ -1,10 +1,6 @@
-addEventListener('DOMContentloaded', () => {
-    const btn_menu = document.querySelector('btn_menu')
-    if (btn_menu) {
-        btn_menu.addEventListener('click', () => {
-            const menu_items = document.querySelector('menu_items')
-            menu_items.classList.toggle('show')
-        })
-    }
-})
+const toggleMenuElement = document.getElementById('toggle-menu')
+const mainMenuElement = document.getElementById('main-menu')
 
+toggleMenuElement.addEventListener('click', () => {
+    mainMenuElement.classList.toggle('menu_items_show')
+})
