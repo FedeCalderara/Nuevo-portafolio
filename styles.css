@@ -303,6 +303,7 @@ footer{
         height: 4.5em;
         background: rgb(59, 57, 57);
         transform: translateY(0);
+        height: calc(100% - 4.5em);
     }
 
     .btn_menu {
