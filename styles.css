@@ -307,8 +307,12 @@ footer{
 
     .btn_menu {
         display: inline-flex;
-        width: 2em;
+        width: 3em;
         font-size: 1.5em;
+    }
+
+    i {
+        width: 2em;
     }
 
     /* portada */
