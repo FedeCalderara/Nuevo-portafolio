@@ -3,4 +3,4 @@ const mainMenuElement = document.getElementById('main-menu')
 
 toggleMenuElement.addEventListener('click', () => {
     mainMenuElement.classList.toggle('menu_items_show')
-})
+})  
